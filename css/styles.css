@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+   }
+   
+   #first {
+       display: flex;
+       justify-content: center;
+   }
+     
