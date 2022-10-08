@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "autosize": {"type": "fit-x", "contains": "padding"},
   "background": "#FFEED9",
   "padding": 5,
+  "width": 600,
   "height": 350,
   "title": {
     "text": "Overall World Suicide Rate Per Year",
@@ -42,16 +42,6 @@
     }
   ],
   "signals": [
-    {
-      "name": "width",
-      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
-      "on": [
-        {
-          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
-          "events": "window:resize"
-        }
-      ]
-    },
     {
       "name": "Age_selection",
       "bind": {
