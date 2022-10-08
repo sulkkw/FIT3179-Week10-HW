@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "background": "white",
   "padding": 5,
-  "width": 900,
-  "height": 500,
+  "width": 550,
+  "height": 350,
   "title": {
     "text": "World Suicide Rate (1985-2016)",
     "font": "sans-serif",
